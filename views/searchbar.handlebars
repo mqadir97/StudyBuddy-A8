@@ -25,7 +25,7 @@
 <a href="/index"><input type="button" value="back" onclick="goBack()"></a>
 <center><h3>Add Your Courses</h3></center>
 
-<h4>Search by:</h4>
+<!--<h4>Search by:</h4>
 <div align="left">
 <select name="mydropdown">
 <option value="Major">Major</option>
@@ -33,8 +33,8 @@
 <option value="Lower/Upper">Lower/Upper</option>
 <option value="College">College</option>
 </select>
-</div><br><br>
-  
+</div><br><br>!-->
+
   <form id="addClassForm" role="form" method="get" action="/add">
 
     <!--<h3>Add a class</h3>-->
@@ -43,7 +43,7 @@
         <input type="text" class="form-control" id="name" placeholder="Name" name="name" href="index.handlebars">
 
       </div>
-      
+
       <center><input type="submit" id="submitBtn" class="btn btn-default" value="Add the class"></input></center>
 </form><br><br>
 
@@ -51,7 +51,7 @@
 
 {{#each class}}
   <div class="class">
-    
+
   <a href="./frnds">
   <p>{{name}}</p></a>
  <!--  <a href="/classList" > {{ name }} </a> -->
